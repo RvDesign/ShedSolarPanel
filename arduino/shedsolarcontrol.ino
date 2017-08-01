@@ -1,11 +1,3 @@
-/*
-
- * test.cpp
- *
- *  Created on: 30 Jul 2017
- *      Author: rogiervandoeland
- */
-
 #include <SPI.h>
 #include <Adafruit_MAX31855.h>
 #include <ArduinoJson.h>
