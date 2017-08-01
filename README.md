@@ -1,7 +1,7 @@
 # ShedSolarPanel
 Arduino based project to automate the solarpanel on my shed. Controlling the lights and charging a battary and delivering the leftover sunpower to the mains
 Date: 02-07-2017
-#Solar panel battery charger with garden lights
+# Solar panel battery charger with garden lights
 This project is to make the control of the 300W solar panel more intelligent.
 The solar panel is charging a battery during the day, at sundown the garden lights are switched on.
 
