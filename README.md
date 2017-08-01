@@ -7,7 +7,7 @@ The solar panel is charging a battery during the day, at sundown the garden ligh
 
 When the battery is fully charged the solar panel is connected to the inverter to feed the mains.
 
-##Used Hardware
+## Used Hardware
 - Victron 15/75 MPPT battery charger.
 - Mastervolt soladin 600 inverter.
 - LED's for the garden lights, in total 12W at 12volt.
@@ -15,7 +15,7 @@ When the battery is fully charged the solar panel is connected to the inverter t
   - RTC clock
   - 2 serial interfaces (for victron and the soladin)
 
-##Functional detail
+## Functional detail
 The main priority of the controller is to charge the battery. Then every sunlight left is used to feed back to the 230V mains.
 The Victron 15/75 battery charger is setup to switch on the load output continuously. Until the battery voltage is to low. This algorithm is controlled by the Victron.
 
@@ -27,9 +27,9 @@ The garden lights should go OFF when the Victron detects too less battery power.
 
 
 
-##StateMachine
+## StateMachine
 
-###State machine of battery charger
+### State machine of battery charger
 
 init
 
@@ -47,7 +47,7 @@ Check inverter is working.
   if yes. (still working), go to check inverter is working
   if no. go to state switch relay to power charger.
 
-###State machine of garden lights
+### State machine of garden lights
 
 init
 
